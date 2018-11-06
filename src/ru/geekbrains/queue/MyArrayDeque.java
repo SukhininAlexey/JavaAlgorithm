@@ -2,7 +2,7 @@ package ru.geekbrains.queue;
 
 import java.util.NoSuchElementException;
 
-public class MyArrayDeque<Item> {
+    public class MyArrayDeque<Item> {
     private Object[] deque = new Object[2];
     private int start = 1;
     private int end = 0;
